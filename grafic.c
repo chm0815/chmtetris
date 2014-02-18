@@ -117,7 +117,7 @@ void gameOverScreen(BITMAP *dest,int offsetX,int offsetY)
 void drawFooter(BITMAP *dest,int x,int y)
 {
      textprintf_ex(dest, font, x, y, makecol(200,20,20),
-                    -1, "developed by Maurer C. (christoph_m@gmx.net)");
+                    -1, "developed by Maurer C.");
 }
 
 void drawHeader(BITMAP *dest,int x,int y)
